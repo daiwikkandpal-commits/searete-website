@@ -53,6 +53,8 @@ nav.wrap{display:flex; align-items:center; justify-content:space-between; height
 .navlinks > li:hover > a{color:var(--orange);}
 .navlinks > li:hover > a i{transform:rotate(180deg); color:var(--orange);}
 .navlinks > li.active > a{color:var(--orange);}
+.navlinks > li > a.btn-orange{padding:12px 26px; color:var(--white); margin-left:8px;}
+.navlinks > li > a.btn-orange:hover{color:var(--white);}
 .dropdown{
   position:absolute; top:100%; left:0; background:var(--white); min-width:260px;
   box-shadow:0 18px 40px rgba(18,35,63,0.14); border-top:3px solid var(--orange);
